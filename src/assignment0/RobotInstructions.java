@@ -29,11 +29,65 @@ public class RobotInstructions  {
 		 * You will add instructions at the end of the code to cause the support.robot to move
 		 * as you desire.
 		 */
+		//draw the right half of leaf
 		robot.forward(60);
-		robot.turnLeft(90);
-		robot.forward(23);
-		robot.turnRight(90);
-		robot.forward(80);
+		robot.turnRight(45);
+		robot.forward(45);
+		robot.turnLeft(8);
+		robot.forward(45);
+		robot.turnLeft(8);
+		robot.forward(45);
+		robot.turnLeft(8);
+		robot.forward(45);
+		robot.turnLeft(8);
+		robot.forward(45);
+		robot.turnLeft(8);
+		robot.forward(45);
+		robot.turnLeft(8);
+		robot.forward(45);
+		robot.turnLeft(8);
+		robot.forward(45);
+		robot.turnLeft(8);
+		robot.forward(45);
+		robot.turnLeft(8);
+		robot.forward(45);
+		robot.turnLeft(8);
+		robot.forward(45);
+		robot.turnLeft(8);
+		robot.forward(60);
+		
+		//draw the center of leaf
+		robot.turnLeft(137);
+		robot.forward(480);
+
+		//draw the left half of leaf
+		robot.turnRight(134);
+		robot.forward(45);
+		robot.turnRight(8);
+		robot.forward(45);
+		robot.turnRight(8);
+		robot.forward(45);
+		robot.turnRight(8);
+		robot.forward(45);
+		robot.turnRight(8);
+		robot.forward(45);
+		robot.turnRight(8);
+		robot.forward(45);
+		robot.turnRight(8);
+		robot.forward(45);
+		robot.turnRight(8);
+		robot.forward(45);
+		robot.turnRight(8);
+		robot.forward(45);
+		robot.turnRight(8);
+		robot.forward(45);
+		robot.turnRight(8);
+		robot.forward(45);
+		robot.turnRight(8);
+		robot.forward(45);
+		robot.turnRight(8);
+		robot.forward(45);
+
 	}
 
 }
